@@ -39,4 +39,4 @@ A dark, technical single-page dashboard (React + Vite + Leaflet + Recharts) live
 The UI talks to the FastAPI endpoints `/api/dashboard`, `/api/summary`, `/api/villages`, `/api/trends`, `/api/conditions` (Vite dev-server proxy → :8000). If the backend or PostgreSQL is unreachable it falls back to generated demo data and shows a `DEMO DATA` badge, so the dashboard is always reviewable.
 
 ## Optional village layer
-The current uploaded data contains a 500m grid, not an official village polygon layer. For the first working version the map therefore shows prediction cells. Add official Uttarakhand village boundaries later and perform a PostGIS spatial join to expose village names.
+The current uploaded data contains a 500m grid, not an official village polygon layer. For the first working version the map therefore shows prediction cells. Add official Uttarakhand village boundaries later and perform a PostGIS spatial join to expose village names
