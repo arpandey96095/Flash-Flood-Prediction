@@ -1,0 +1,268 @@
+{
+  "rows": 233976,
+  "positive_rows": 905,
+  "negative_rows": 233071,
+  "positive_ratio": 0.0038679180770677334,
+  "train_rows": 187180,
+  "test_rows": 46796,
+  "train_positive": 538,
+  "test_positive": 367,
+  "roc_auc": 0.7992151797450184,
+  "pr_auc": 0.045799804410839806,
+  "selected_threshold": 0.2,
+  "selected_precision": 0.0584,
+  "selected_recall": 0.2289,
+  "selected_f1": 0.0931,
+  "false_alarm_rate": 0.0292,
+  "confusion_matrix": [
+    [
+      45075,
+      1354
+    ],
+    [
+      283,
+      84
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "rain_24h",
+      "importance": 0.19510505808041662
+    },
+    {
+      "feature": "rain_12h",
+      "importance": 0.11171904836281878
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.09643198606967993
+    },
+    {
+      "feature": "soil_mean",
+      "importance": 0.09315272884293849
+    },
+    {
+      "feature": "rain_6h",
+      "importance": 0.08623820032735323
+    },
+    {
+      "feature": "water_level_m",
+      "importance": 0.08128252958920512
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.045570742190506885
+    },
+    {
+      "feature": "rain_change_3h",
+      "importance": 0.04463027572916472
+    },
+    {
+      "feature": "rain_3h",
+      "importance": 0.04458555527587242
+    },
+    {
+      "feature": "river_change_12h",
+      "importance": 0.04263142893985039
+    },
+    {
+      "feature": "month",
+      "importance": 0.03466925485966151
+    },
+    {
+      "feature": "river_change_6h",
+      "importance": 0.034376625775306514
+    },
+    {
+      "feature": "river_change_3h",
+      "importance": 0.03175722500806006
+    },
+    {
+      "feature": "rain_1h",
+      "importance": 0.02361150106640822
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.01858322667561208
+    },
+    {
+      "feature": "hour",
+      "importance": 0.006327535539487815
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.005188662132950272
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.004138415534707121
+    }
+  ],
+  "threshold_table": [
+    {
+      "threshold": 0.05,
+      "TP": 172,
+      "FP": 4374,
+      "FN": 195,
+      "TN": 42055,
+      "precision": 0.0378,
+      "recall": 0.4687,
+      "f1": 0.07,
+      "false_alarm_rate": 0.0942
+    },
+    {
+      "threshold": 0.1,
+      "TP": 149,
+      "FP": 3043,
+      "FN": 218,
+      "TN": 43386,
+      "precision": 0.0467,
+      "recall": 0.406,
+      "f1": 0.0837,
+      "false_alarm_rate": 0.0655
+    },
+    {
+      "threshold": 0.15,
+      "TP": 109,
+      "FP": 2046,
+      "FN": 258,
+      "TN": 44383,
+      "precision": 0.0506,
+      "recall": 0.297,
+      "f1": 0.0864,
+      "false_alarm_rate": 0.0441
+    },
+    {
+      "threshold": 0.2,
+      "TP": 84,
+      "FP": 1354,
+      "FN": 283,
+      "TN": 45075,
+      "precision": 0.0584,
+      "recall": 0.2289,
+      "f1": 0.0931,
+      "false_alarm_rate": 0.0292
+    },
+    {
+      "threshold": 0.25,
+      "TP": 55,
+      "FP": 959,
+      "FN": 312,
+      "TN": 45470,
+      "precision": 0.0542,
+      "recall": 0.1499,
+      "f1": 0.0797,
+      "false_alarm_rate": 0.0207
+    },
+    {
+      "threshold": 0.3,
+      "TP": 25,
+      "FP": 696,
+      "FN": 342,
+      "TN": 45733,
+      "precision": 0.0347,
+      "recall": 0.0681,
+      "f1": 0.046,
+      "false_alarm_rate": 0.015
+    },
+    {
+      "threshold": 0.35,
+      "TP": 23,
+      "FP": 479,
+      "FN": 344,
+      "TN": 45950,
+      "precision": 0.0458,
+      "recall": 0.0627,
+      "f1": 0.0529,
+      "false_alarm_rate": 0.0103
+    },
+    {
+      "threshold": 0.4,
+      "TP": 21,
+      "FP": 342,
+      "FN": 346,
+      "TN": 46087,
+      "precision": 0.0579,
+      "recall": 0.0572,
+      "f1": 0.0575,
+      "false_alarm_rate": 0.0074
+    },
+    {
+      "threshold": 0.45,
+      "TP": 17,
+      "FP": 235,
+      "FN": 350,
+      "TN": 46194,
+      "precision": 0.0675,
+      "recall": 0.0463,
+      "f1": 0.0549,
+      "false_alarm_rate": 0.0051
+    },
+    {
+      "threshold": 0.5,
+      "TP": 13,
+      "FP": 149,
+      "FN": 354,
+      "TN": 46280,
+      "precision": 0.0802,
+      "recall": 0.0354,
+      "f1": 0.0491,
+      "false_alarm_rate": 0.0032
+    },
+    {
+      "threshold": 0.55,
+      "TP": 13,
+      "FP": 90,
+      "FN": 354,
+      "TN": 46339,
+      "precision": 0.1262,
+      "recall": 0.0354,
+      "f1": 0.0553,
+      "false_alarm_rate": 0.0019
+    },
+    {
+      "threshold": 0.6,
+      "TP": 8,
+      "FP": 52,
+      "FN": 359,
+      "TN": 46377,
+      "precision": 0.1333,
+      "recall": 0.0218,
+      "f1": 0.0375,
+      "false_alarm_rate": 0.0011
+    },
+    {
+      "threshold": 0.65,
+      "TP": 6,
+      "FP": 21,
+      "FN": 361,
+      "TN": 46408,
+      "precision": 0.2222,
+      "recall": 0.0163,
+      "f1": 0.0305,
+      "false_alarm_rate": 0.0005
+    },
+    {
+      "threshold": 0.7,
+      "TP": 5,
+      "FP": 7,
+      "FN": 362,
+      "TN": 46422,
+      "precision": 0.4167,
+      "recall": 0.0136,
+      "f1": 0.0264,
+      "false_alarm_rate": 0.0002
+    },
+    {
+      "threshold": 0.75,
+      "TP": 3,
+      "FP": 3,
+      "FN": 364,
+      "TN": 46426,
+      "precision": 0.5,
+      "recall": 0.0082,
+      "f1": 0.0161,
+      "false_alarm_rate": 0.0001
+    }
+  ]
+}

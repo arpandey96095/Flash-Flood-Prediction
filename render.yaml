@@ -1,0 +1,16 @@
+
+services:
+  - type: web
+    name: chamoli-ews-api
+    runtime: docker
+    rootDir: backend
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: OPEN_METEO_URL
+        value: https://api.open-meteo.com/v1/forecast
+      - key: CORS_ORIGINS
+        sync: false
+      - key: REFRESH_SECONDS
+        value: "900"
